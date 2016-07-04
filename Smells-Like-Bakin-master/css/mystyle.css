@@ -1,0 +1,43 @@
+body{
+
+    font-family: 'Nunito', sans-serif;
+	color: #FAF3BC;
+	background: #420600 url('img/bg-texture.jpg') repeat;
+	font-size: 20px;
+	line-height: 1.6;
+}
+a:link {
+	color: orange;
+	/*display: block;
+	background-color: tomato;*/
+}
+a:visited {
+	color: lightblue;
+}
+a:hover {
+	color: forestgreen;
+}
+
+a:focus {
+	color: white;
+	background-color: blue;
+}
+universe-demo{
+	background: radial-gradient(ellipse closest-side, red, yellow 10%, #1E90FF 50%, white);
+}
+p{
+	margin: 0;
+}
+p+p{
+	text-indent: 1.5em;
+}
+@media (max-width: 500px){
+
+ body{
+ 	background-color: red;
+
+ }
+ h1{
+ 	color: black;
+ }
+}
